@@ -16,9 +16,9 @@ public class RayMarching : MonoBehaviour
 
     struct Layer
     {
-        public uint startIndex;
-        public uint Rows;
-        public uint Columns;
+        public int startIndex;
+        public int Rows;
+        public int Columns;
         public LayerType Type;
     }
 
@@ -121,11 +121,11 @@ public class RayMarching : MonoBehaviour
     private Vector2 _iResolution;
     private int _mainKernelIndex;
 
-    private ComputeBuffer _mat3x4Buffer;
-    private ComputeBuffer _mat4x4Buffer;
-    private ComputeBuffer _float4Buffer;
+    //private ComputeBuffer _mat3x4Buffer;
+    //private ComputeBuffer _mat4x4Buffer;
+    //private ComputeBuffer _float4Buffer;
 
-    private List<Matrix3x4Shader> _matrix3X4s;
+    private List<Matrix4x4> _matrix3X4s;
     private List<Matrix4x4> _matrix4X4s;
     private List<Vector4> _float4s;
 
@@ -133,9 +133,9 @@ public class RayMarching : MonoBehaviour
 
     private ComputeBuffer _layersBuffer;
 
-    private uint _mat3x4_next = 0;
-    private uint _mat4x4_next = 0;
-    private uint _float4_next = 0;
+    private int _mat3x4_next = 0;
+    private int _mat4x4_next = 0;
+    private int _float4_next = 0;
 
     private bool _layersUpdated = false;
 
@@ -151,13 +151,13 @@ public class RayMarching : MonoBehaviour
         _mainKernelIndex = computeShader.FindKernel("CSMain");
 
         _layers = new List<Layer>();
-        _matrix3X4s = new List<Matrix3x4Shader>();
+        _matrix3X4s = new List<Matrix4x4>();
         _matrix4X4s = new List<Matrix4x4>();
         _float4s = new List<Vector4>();
 
-        _mat3x4Buffer = new ComputeBuffer(64, sizeof(float) * 12);
-        _mat4x4Buffer = new ComputeBuffer(64, sizeof(float) * 16);
-        _float4Buffer = new ComputeBuffer(16, sizeof(float) * 4);
+        //_mat3x4Buffer = new ComputeBuffer(64, sizeof(float) * 12);
+        //_mat4x4Buffer = new ComputeBuffer(64, sizeof(float) * 16);
+        //_float4Buffer = new ComputeBuffer(16, sizeof(float) * 4);
         _layersBuffer = new ComputeBuffer(64, sizeof(int) * 4);
         ReadWeights("D:\\Work\\SDFApproximation\\nsdf\\monkj_weights.txt", 16, 2, 16);
         Debug.Log(_layers.Count);
@@ -179,16 +179,27 @@ public class RayMarching : MonoBehaviour
 
         if (_layersUpdated)
         {
-            _mat3x4Buffer.SetData(_matrix3X4s);
-            _mat4x4Buffer.SetData(_matrix4X4s);
-            _float4Buffer.SetData(_float4s);
+            //_mat3x4Buffer.SetData(_matrix3X4s);
+            //_mat4x4Buffer.SetData(_matrix4X4s);
+            //_float4Buffer.SetData(_float4s);
             _layersBuffer.SetData(_layers);
 
-            computeShader.SetBuffer(_mainKernelIndex, "Layers", _layersBuffer);
-            computeShader.SetBuffer(_mainKernelIndex, "Mat3x4s", _mat3x4Buffer);
-            computeShader.SetBuffer(_mainKernelIndex, "Mat4x4s", _mat4x4Buffer);
-            computeShader.SetBuffer(_mainKernelIndex, "Float4s", _float4Buffer);
+            //computeShader.SetBuffer(_mainKernelIndex, "Layers", _layersBuffer);
+            //computeShader.SetBuffer(_mainKernelIndex, "Mat3x4s", _mat3x4Buffer);
+            //computeShader.SetBuffer(_mainKernelIndex, "Mat4x4s", _mat4x4Buffer);
+            //computeShader.SetBuffer(_mainKernelIndex, "Float4s", _float4Buffer);
+            var LayerStartIndex = _layers.SelectMany(x => new int[] { x.startIndex, 0, 0, 0 }).ToArray();
+            var LayerColumns = _layers.SelectMany(x => new int[] { x.Columns, 0, 0, 0 }).ToArray();
+            var LayerRows = _layers.SelectMany(x => new int[] { x.Rows, 0, 0, 0 }).ToArray();
+            Debug.Log(string.Join(", ", LayerStartIndex.Select(x => x.ToString())));
 
+            computeShader.SetInts("LayerStartIndex", LayerStartIndex);
+            computeShader.SetInts("LayerColumns", LayerColumns);
+            computeShader.SetInts("LayerRows", LayerRows);
+
+            computeShader.SetMatrixArray("Mat3x4s", _matrix3X4s.ToArray());
+            computeShader.SetMatrixArray("Mat4x4s", _matrix4X4s.ToArray());
+            computeShader.SetVectorArray("Float4s", _float4s.ToArray());
 
             _layersUpdated = false;
         }
@@ -265,20 +276,19 @@ public class RayMarching : MonoBehaviour
         Layer layer = new Layer
         {
             startIndex = _mat3x4_next,
-            Rows = (uint)rows,
-            Columns = (uint)columns,
+            Rows = rows,
+            Columns = columns,
             Type = LayerType.FourierFeatures,
         };
 
         foreach (var mat in matrices)
         {
-            Matrix3x4Shader tmp = default(Matrix3x4Shader);
-            tmp.m0 = new Vector3(mat[0].x, mat[1].x, mat[2].x);
-            tmp.m1 = new Vector3(mat[0].y, mat[1].y, mat[2].y);
-            tmp.m2 = new Vector3(mat[0].z, mat[1].z, mat[2].z);
-            tmp.m3 = new Vector3(mat[0].w, mat[1].w, mat[2].w);
+            Vector4 m0 = new Vector4(mat[0].x, mat[1].x, mat[2].x, 0);
+            Vector4 m1 = new Vector4(mat[0].y, mat[1].y, mat[2].y, 0);
+            Vector4 m2 = new Vector4(mat[0].z, mat[1].z, mat[2].z, 0);
+            Vector4 m3 = new Vector4(mat[0].w, mat[1].w, mat[2].w, 0);
 
-            _matrix3X4s.Add(tmp);
+            _matrix3X4s.Add(new Matrix4x4(m0, m1, m2, m3));
             _mat3x4_next++;
         }
 
@@ -325,8 +335,8 @@ public class RayMarching : MonoBehaviour
         Layer layer = new Layer
         {
             startIndex = _mat4x4_next,
-            Rows = (uint)rows,
-            Columns = (uint)columns,
+            Rows = rows,
+            Columns = columns,
             Type = LayerType.Dense,
         };
 
@@ -364,7 +374,7 @@ public class RayMarching : MonoBehaviour
         Layer layer = new Layer
         {
             startIndex = _float4_next,
-            Rows = (uint)n,
+            Rows = n,
             Columns = 1,
             Type = LayerType.Vector,
         };

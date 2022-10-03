@@ -9,7 +9,13 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
-
+/RayMarchingTest/[Ll]ibrary/
+/RayMarchingTest/[Tt]emp/
+/RayMarchingTest/[Oo]bj/
+/RayMarchingTest/[Bb]uild/
+/RayMarchingTest/[Bb]uilds/
+/RayMarchingTest/[Ll]ogs/
+/[Mm]emoryCaptures/
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 

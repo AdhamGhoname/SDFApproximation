@@ -1,0 +1,2 @@
+model_checkpoint_path: "monkj64x8.wgts"
+all_model_checkpoint_paths: "monkj64x8.wgts"

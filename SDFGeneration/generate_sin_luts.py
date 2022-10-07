@@ -15,8 +15,6 @@ for i in lut:
     print("\t" + str(round(i,20)) + ",")
 print(");")
 
-
-
 def SinHalfPi(x):
     x = x / (np.pi / 2.) * (RES-1)
     fx = np.floor(x)

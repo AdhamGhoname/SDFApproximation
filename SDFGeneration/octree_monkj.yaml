@@ -20,7 +20,7 @@ children:
               y: 0.125
               z: 0.125
             path: '034'
-            points_count: 1654
+            points_count: 1694
           5:
             child_count: 0
             depth: 3
@@ -35,7 +35,7 @@ children:
               y: 0.125
               z: 0.0
             path: '035'
-            points_count: 2162
+            points_count: 2205
           6:
             child_count: 0
             depth: 3
@@ -50,7 +50,7 @@ children:
               y: 0.0
               z: 0.125
             path: '036'
-            points_count: 2460
+            points_count: 2452
           7:
             child_count: 0
             depth: 3
@@ -65,7 +65,7 @@ children:
               y: 0.0
               z: 0.0
             path: '037'
-            points_count: 2717
+            points_count: 2673
         depth: 2
         extents:
           x: 0.25
@@ -78,10 +78,25 @@ children:
           y: 0.0
           z: 0.0
         path: '03'
-        points_count: 8993
+        points_count: 9024
       5:
-        child_count: 3
+        child_count: 4
         children:
+          2:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 2
+            leaf: true
+            origin:
+              x: 0.125
+              y: 0.25
+              z: 0.125
+            path: '052'
+            points_count: 84
           3:
             child_count: 0
             depth: 3
@@ -96,7 +111,7 @@ children:
               y: 0.25
               z: 0.0
             path: '053'
-            points_count: 2597
+            points_count: 2660
           6:
             child_count: 0
             depth: 3
@@ -111,7 +126,7 @@ children:
               y: 0.25
               z: 0.125
             path: '056'
-            points_count: 1046
+            points_count: 1041
           7:
             child_count: 0
             depth: 3
@@ -126,7 +141,7 @@ children:
               y: 0.25
               z: 0.0
             path: '057'
-            points_count: 3005
+            points_count: 2935
         depth: 2
         extents:
           x: 0.25
@@ -139,7 +154,7 @@ children:
           y: 0.25
           z: 0.0
         path: '05'
-        points_count: 6726
+        points_count: 6720
       6:
         child_count: 4
         children:
@@ -157,7 +172,7 @@ children:
               y: 0.125
               z: 0.25
             path: '061'
-            points_count: 2481
+            points_count: 2550
           3:
             child_count: 0
             depth: 3
@@ -172,7 +187,7 @@ children:
               y: 0.0
               z: 0.25
             path: '063'
-            points_count: 1822
+            points_count: 1781
           5:
             child_count: 0
             depth: 3
@@ -187,7 +202,7 @@ children:
               y: 0.125
               z: 0.25
             path: '065'
-            points_count: 3221
+            points_count: 3168
           7:
             child_count: 0
             depth: 3
@@ -202,7 +217,7 @@ children:
               y: 0.0
               z: 0.25
             path: '067'
-            points_count: 3021
+            points_count: 3010
         depth: 2
         extents:
           x: 0.25
@@ -215,9 +230,9 @@ children:
           y: 0.0
           z: 0.25
         path: '06'
-        points_count: 10545
+        points_count: 10509
       7:
-        child_count: 4
+        child_count: 5
         children:
           0:
             child_count: 0
@@ -233,7 +248,7 @@ children:
               y: 0.125
               z: 0.125
             path: '070'
-            points_count: 3538
+            points_count: 3498
           1:
             child_count: 0
             depth: 3
@@ -248,7 +263,7 @@ children:
               y: 0.125
               z: 0.0
             path: '071'
-            points_count: 1526
+            points_count: 1519
           2:
             child_count: 0
             depth: 3
@@ -263,7 +278,22 @@ children:
               y: 0.0
               z: 0.125
             path: '072'
-            points_count: 1679
+            points_count: 1720
+          3:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 3
+            leaf: true
+            origin:
+              x: 0.125
+              y: 0.0
+              z: 0.0
+            path: '073'
+            points_count: 72
           4:
             child_count: 0
             depth: 3
@@ -278,7 +308,7 @@ children:
               y: 0.125
               z: 0.125
             path: '074'
-            points_count: 3515
+            points_count: 3523
         depth: 2
         extents:
           x: 0.25
@@ -291,7 +321,7 @@ children:
           y: 0.0
           z: 0.0
         path: '07'
-        points_count: 10329
+        points_count: 10332
     depth: 1
     extents:
       x: 0.5
@@ -304,13 +334,28 @@ children:
       y: 0.0
       z: 0.0
     path: '0'
-    points_count: 37342
+    points_count: 37328
   1:
     child_count: 4
     children:
       2:
-        child_count: 6
+        child_count: 7
         children:
+          0:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 0
+            leaf: true
+            origin:
+              x: 0.375
+              y: 0.125
+              z: -0.125
+            path: '120'
+            points_count: 182
           1:
             child_count: 0
             depth: 3
@@ -325,7 +370,7 @@ children:
               y: 0.125
               z: -0.25
             path: '121'
-            points_count: 2649
+            points_count: 2643
           3:
             child_count: 0
             depth: 3
@@ -340,7 +385,7 @@ children:
               y: 0.0
               z: -0.25
             path: '123'
-            points_count: 6183
+            points_count: 6237
           4:
             child_count: 0
             depth: 3
@@ -355,7 +400,7 @@ children:
               y: 0.125
               z: -0.125
             path: '124'
-            points_count: 3649
+            points_count: 3615
           5:
             child_count: 0
             depth: 3
@@ -370,7 +415,7 @@ children:
               y: 0.125
               z: -0.25
             path: '125'
-            points_count: 1861
+            points_count: 1858
           6:
             child_count: 0
             depth: 3
@@ -385,7 +430,7 @@ children:
               y: 0.0
               z: -0.125
             path: '126'
-            points_count: 3845
+            points_count: 3861
           7:
             child_count: 0
             depth: 3
@@ -400,7 +445,7 @@ children:
               y: 0.0
               z: -0.25
             path: '127'
-            points_count: 3891
+            points_count: 3897
         depth: 2
         extents:
           x: 0.25
@@ -413,7 +458,7 @@ children:
           y: 0.0
           z: -0.25
         path: '12'
-        points_count: 22269
+        points_count: 22293
       4:
         child_count: 4
         children:
@@ -431,7 +476,7 @@ children:
               y: 0.25
               z: -0.125
             path: '142'
-            points_count: 3128
+            points_count: 3085
           3:
             child_count: 0
             depth: 3
@@ -446,7 +491,7 @@ children:
               y: 0.25
               z: -0.25
             path: '143'
-            points_count: 1600
+            points_count: 1598
           6:
             child_count: 0
             depth: 3
@@ -461,7 +506,7 @@ children:
               y: 0.25
               z: -0.125
             path: '146'
-            points_count: 2463
+            points_count: 2473
           7:
             child_count: 0
             depth: 3
@@ -476,7 +521,7 @@ children:
               y: 0.25
               z: -0.25
             path: '147'
-            points_count: 2916
+            points_count: 2928
         depth: 2
         extents:
           x: 0.25
@@ -489,10 +534,25 @@ children:
           y: 0.25
           z: -0.25
         path: '14'
-        points_count: 10107
+        points_count: 10084
       6:
-        child_count: 2
+        child_count: 5
         children:
+          0:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 0
+            leaf: true
+            origin:
+              x: 0.125
+              y: 0.125
+              z: -0.125
+            path: '160'
+            points_count: 23
           1:
             child_count: 0
             depth: 3
@@ -507,7 +567,7 @@ children:
               y: 0.125
               z: -0.25
             path: '161'
-            points_count: 2822
+            points_count: 2806
           3:
             child_count: 0
             depth: 3
@@ -522,7 +582,37 @@ children:
               y: 0.0
               z: -0.25
             path: '163'
-            points_count: 2773
+            points_count: 2847
+          5:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 5
+            leaf: true
+            origin:
+              x: 0.0
+              y: 0.125
+              z: -0.25
+            path: '165'
+            points_count: 542
+          7:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 7
+            leaf: true
+            origin:
+              x: 0.0
+              y: 0.0
+              z: -0.25
+            path: '167'
+            points_count: 175
         depth: 2
         extents:
           x: 0.25
@@ -535,10 +625,40 @@ children:
           y: 0.0
           z: -0.25
         path: '16'
-        points_count: 6294
+        points_count: 6393
       7:
-        child_count: 2
+        child_count: 4
         children:
+          0:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 0
+            leaf: true
+            origin:
+              x: 0.125
+              y: 0.125
+              z: -0.375
+            path: '170'
+            points_count: 488
+          2:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 2
+            leaf: true
+            origin:
+              x: 0.125
+              y: 0.0
+              z: -0.375
+            path: '172'
+            points_count: 244
           4:
             child_count: 0
             depth: 3
@@ -553,7 +673,7 @@ children:
               y: 0.125
               z: -0.375
             path: '174'
-            points_count: 2500
+            points_count: 2493
           6:
             child_count: 0
             depth: 3
@@ -568,7 +688,7 @@ children:
               y: 0.0
               z: -0.375
             path: '176'
-            points_count: 2583
+            points_count: 2591
         depth: 2
         extents:
           x: 0.25
@@ -581,7 +701,7 @@ children:
           y: 0.0
           z: -0.5
         path: '17'
-        points_count: 5846
+        points_count: 5816
     depth: 1
     extents:
       x: 0.5
@@ -594,13 +714,28 @@ children:
       y: 0.0
       z: -0.5
     path: '1'
-    points_count: 44727
+    points_count: 44820
   2:
-    child_count: 3
+    child_count: 4
     children:
       4:
-        child_count: 2
+        child_count: 3
         children:
+          1:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 1
+            leaf: true
+            origin:
+              x: 0.125
+              y: -0.125
+              z: 0.25
+            path: '241'
+            points_count: 77
           5:
             child_count: 0
             depth: 3
@@ -615,7 +750,7 @@ children:
               y: -0.125
               z: 0.25
             path: '245'
-            points_count: 2660
+            points_count: 2644
           7:
             child_count: 0
             depth: 3
@@ -630,7 +765,7 @@ children:
               y: -0.25
               z: 0.25
             path: '247'
-            points_count: 1789
+            points_count: 1800
         depth: 2
         extents:
           x: 0.25
@@ -643,9 +778,9 @@ children:
           y: -0.25
           z: 0.25
         path: '24'
-        points_count: 4513
+        points_count: 4521
       5:
-        child_count: 6
+        child_count: 7
         children:
           0:
             child_count: 0
@@ -661,7 +796,7 @@ children:
               y: -0.125
               z: 0.125
             path: '250'
-            points_count: 2502
+            points_count: 2474
           1:
             child_count: 0
             depth: 3
@@ -676,7 +811,22 @@ children:
               y: -0.125
               z: 0.0
             path: '251'
-            points_count: 2908
+            points_count: 2880
+          2:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 2
+            leaf: true
+            origin:
+              x: 0.125
+              y: -0.25
+              z: 0.125
+            path: '252'
+            points_count: 23
           4:
             child_count: 0
             depth: 3
@@ -691,7 +841,7 @@ children:
               y: -0.125
               z: 0.125
             path: '254'
-            points_count: 2288
+            points_count: 2349
           5:
             child_count: 0
             depth: 3
@@ -706,7 +856,7 @@ children:
               y: -0.125
               z: 0.0
             path: '255'
-            points_count: 1085
+            points_count: 1137
           6:
             child_count: 0
             depth: 3
@@ -721,7 +871,7 @@ children:
               y: -0.25
               z: 0.125
             path: '256'
-            points_count: 3392
+            points_count: 3391
           7:
             child_count: 0
             depth: 3
@@ -736,7 +886,7 @@ children:
               y: -0.25
               z: 0.0
             path: '257'
-            points_count: 2440
+            points_count: 2414
         depth: 2
         extents:
           x: 0.25
@@ -749,10 +899,40 @@ children:
           y: -0.25
           z: 0.0
         path: '25'
-        points_count: 14638
+        points_count: 14668
+      6:
+        child_count: 0
+        depth: 2
+        extents:
+          x: 0.25
+          y: 0.25
+          z: 0.25
+        index: 6
+        leaf: true
+        origin:
+          x: 0.0
+          y: -0.5
+          z: 0.25
+        path: '26'
+        points_count: 902
       7:
-        child_count: 1
+        child_count: 3
         children:
+          0:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 0
+            leaf: true
+            origin:
+              x: 0.125
+              y: -0.375
+              z: 0.125
+            path: '270'
+            points_count: 401
           4:
             child_count: 0
             depth: 3
@@ -767,7 +947,22 @@ children:
               y: -0.375
               z: 0.125
             path: '274'
-            points_count: 5312
+            points_count: 5365
+          5:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 5
+            leaf: true
+            origin:
+              x: 0.0
+              y: -0.375
+              z: 0.0
+            path: '275'
+            points_count: 58
         depth: 2
         extents:
           x: 0.25
@@ -780,7 +975,7 @@ children:
           y: -0.5
           z: 0.0
         path: '27'
-        points_count: 5769
+        points_count: 5824
     depth: 1
     extents:
       x: 0.5
@@ -793,13 +988,43 @@ children:
       y: -0.5
       z: 0.0
     path: '2'
-    points_count: 26262
+    points_count: 26299
   3:
     child_count: 2
     children:
       0:
-        child_count: 2
+        child_count: 4
         children:
+          0:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 0
+            leaf: true
+            origin:
+              x: 0.375
+              y: -0.125
+              z: -0.125
+            path: '300'
+            points_count: 142
+          1:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 1
+            leaf: true
+            origin:
+              x: 0.375
+              y: -0.125
+              z: -0.25
+            path: '301'
+            points_count: 870
           4:
             child_count: 0
             depth: 3
@@ -814,7 +1039,7 @@ children:
               y: -0.125
               z: -0.125
             path: '304'
-            points_count: 2840
+            points_count: 2883
           5:
             child_count: 0
             depth: 3
@@ -829,7 +1054,7 @@ children:
               y: -0.125
               z: -0.25
             path: '305'
-            points_count: 1212
+            points_count: 1189
         depth: 2
         extents:
           x: 0.25
@@ -842,9 +1067,9 @@ children:
           y: -0.25
           z: -0.25
         path: '30'
-        points_count: 5129
+        points_count: 5084
       4:
-        child_count: 5
+        child_count: 6
         children:
           0:
             child_count: 0
@@ -860,7 +1085,7 @@ children:
               y: -0.125
               z: -0.125
             path: '340'
-            points_count: 3107
+            points_count: 3105
           1:
             child_count: 0
             depth: 3
@@ -875,7 +1100,7 @@ children:
               y: -0.125
               z: -0.25
             path: '341'
-            points_count: 1789
+            points_count: 1777
           4:
             child_count: 0
             depth: 3
@@ -890,7 +1115,7 @@ children:
               y: -0.125
               z: -0.125
             path: '344'
-            points_count: 1100
+            points_count: 1033
           5:
             child_count: 0
             depth: 3
@@ -905,7 +1130,7 @@ children:
               y: -0.125
               z: -0.25
             path: '345'
-            points_count: 3233
+            points_count: 3221
           6:
             child_count: 0
             depth: 3
@@ -920,7 +1145,22 @@ children:
               y: -0.25
               z: -0.125
             path: '346'
-            points_count: 1689
+            points_count: 1684
+          7:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 7
+            leaf: true
+            origin:
+              x: 0.0
+              y: -0.25
+              z: -0.25
+            path: '347'
+            points_count: 126
         depth: 2
         extents:
           x: 0.25
@@ -933,7 +1173,7 @@ children:
           y: -0.25
           z: -0.25
         path: '34'
-        points_count: 11016
+        points_count: 10946
     depth: 1
     extents:
       x: 0.5
@@ -946,12 +1186,12 @@ children:
       y: -0.5
       z: -0.5
     path: '3'
-    points_count: 16655
+    points_count: 16539
   4:
     child_count: 4
     children:
       1:
-        child_count: 3
+        child_count: 4
         children:
           2:
             child_count: 0
@@ -967,7 +1207,7 @@ children:
               y: 0.25
               z: 0.125
             path: '412'
-            points_count: 1017
+            points_count: 1046
           3:
             child_count: 0
             depth: 3
@@ -982,7 +1222,22 @@ children:
               y: 0.25
               z: 0.0
             path: '413'
-            points_count: 3000
+            points_count: 2954
+          6:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 6
+            leaf: true
+            origin:
+              x: -0.25
+              y: 0.25
+              z: 0.125
+            path: '416'
+            points_count: 75
           7:
             child_count: 0
             depth: 3
@@ -997,7 +1252,7 @@ children:
               y: 0.25
               z: 0.0
             path: '417'
-            points_count: 2614
+            points_count: 2652
         depth: 2
         extents:
           x: 0.25
@@ -1010,7 +1265,7 @@ children:
           y: 0.25
           z: 0.0
         path: '41'
-        points_count: 6703
+        points_count: 6727
       2:
         child_count: 4
         children:
@@ -1028,7 +1283,7 @@ children:
               y: 0.125
               z: 0.25
             path: '421'
-            points_count: 3157
+            points_count: 3168
           3:
             child_count: 0
             depth: 3
@@ -1043,7 +1298,7 @@ children:
               y: 0.0
               z: 0.25
             path: '423'
-            points_count: 2964
+            points_count: 2968
           5:
             child_count: 0
             depth: 3
@@ -1058,7 +1313,7 @@ children:
               y: 0.125
               z: 0.25
             path: '425'
-            points_count: 2540
+            points_count: 2538
           7:
             child_count: 0
             depth: 3
@@ -1073,7 +1328,7 @@ children:
               y: 0.0
               z: 0.25
             path: '427'
-            points_count: 1794
+            points_count: 1790
         depth: 2
         extents:
           x: 0.25
@@ -1086,9 +1341,9 @@ children:
           y: 0.0
           z: 0.25
         path: '42'
-        points_count: 10455
+        points_count: 10464
       3:
-        child_count: 4
+        child_count: 5
         children:
           0:
             child_count: 0
@@ -1104,7 +1359,7 @@ children:
               y: 0.125
               z: 0.125
             path: '430'
-            points_count: 3572
+            points_count: 3556
           4:
             child_count: 0
             depth: 3
@@ -1119,7 +1374,7 @@ children:
               y: 0.125
               z: 0.125
             path: '434'
-            points_count: 3467
+            points_count: 3448
           5:
             child_count: 0
             depth: 3
@@ -1134,7 +1389,7 @@ children:
               y: 0.125
               z: 0.0
             path: '435'
-            points_count: 1502
+            points_count: 1534
           6:
             child_count: 0
             depth: 3
@@ -1149,7 +1404,22 @@ children:
               y: 0.0
               z: 0.125
             path: '436'
-            points_count: 1786
+            points_count: 1714
+          7:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 7
+            leaf: true
+            origin:
+              x: -0.25
+              y: 0.0
+              z: 0.0
+            path: '437'
+            points_count: 58
         depth: 2
         extents:
           x: 0.25
@@ -1162,7 +1432,7 @@ children:
           y: 0.0
           z: 0.0
         path: '43'
-        points_count: 10391
+        points_count: 10310
       7:
         child_count: 4
         children:
@@ -1180,7 +1450,7 @@ children:
               y: 0.125
               z: 0.125
             path: '470'
-            points_count: 1661
+            points_count: 1647
           1:
             child_count: 0
             depth: 3
@@ -1195,7 +1465,7 @@ children:
               y: 0.125
               z: 0.0
             path: '471'
-            points_count: 2177
+            points_count: 2125
           2:
             child_count: 0
             depth: 3
@@ -1210,7 +1480,7 @@ children:
               y: 0.0
               z: 0.125
             path: '472'
-            points_count: 2416
+            points_count: 2498
           3:
             child_count: 0
             depth: 3
@@ -1225,7 +1495,7 @@ children:
               y: 0.0
               z: 0.0
             path: '473'
-            points_count: 2687
+            points_count: 2692
         depth: 2
         extents:
           x: 0.25
@@ -1238,7 +1508,7 @@ children:
           y: 0.0
           z: 0.0
         path: '47'
-        points_count: 8941
+        points_count: 8962
     depth: 1
     extents:
       x: 0.5
@@ -1251,7 +1521,7 @@ children:
       y: 0.0
       z: 0.0
     path: '4'
-    points_count: 37262
+    points_count: 37258
   5:
     child_count: 4
     children:
@@ -1272,7 +1542,7 @@ children:
               y: 0.25
               z: -0.125
             path: '502'
-            points_count: 2554
+            points_count: 2555
           3:
             child_count: 0
             depth: 3
@@ -1287,7 +1557,7 @@ children:
               y: 0.25
               z: -0.25
             path: '503'
-            points_count: 2900
+            points_count: 2982
           6:
             child_count: 0
             depth: 3
@@ -1302,7 +1572,7 @@ children:
               y: 0.25
               z: -0.125
             path: '506'
-            points_count: 3049
+            points_count: 3057
           7:
             child_count: 0
             depth: 3
@@ -1317,7 +1587,7 @@ children:
               y: 0.25
               z: -0.25
             path: '507'
-            points_count: 1646
+            points_count: 1553
         depth: 2
         extents:
           x: 0.25
@@ -1330,10 +1600,55 @@ children:
           y: 0.25
           z: -0.25
         path: '50'
-        points_count: 10149
+        points_count: 10147
       2:
-        child_count: 2
+        child_count: 5
         children:
+          1:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 1
+            leaf: true
+            origin:
+              x: -0.125
+              y: 0.125
+              z: -0.25
+            path: '521'
+            points_count: 529
+          3:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 3
+            leaf: true
+            origin:
+              x: -0.125
+              y: 0.0
+              z: -0.25
+            path: '523'
+            points_count: 165
+          4:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 4
+            leaf: true
+            origin:
+              x: -0.25
+              y: 0.125
+              z: -0.125
+            path: '524'
+            points_count: 22
           5:
             child_count: 0
             depth: 3
@@ -1348,7 +1663,7 @@ children:
               y: 0.125
               z: -0.25
             path: '525'
-            points_count: 2790
+            points_count: 2793
           7:
             child_count: 0
             depth: 3
@@ -1363,7 +1678,7 @@ children:
               y: 0.0
               z: -0.25
             path: '527'
-            points_count: 2815
+            points_count: 2835
         depth: 2
         extents:
           x: 0.25
@@ -1376,9 +1691,9 @@ children:
           y: 0.0
           z: -0.25
         path: '52'
-        points_count: 6326
+        points_count: 6344
       3:
-        child_count: 2
+        child_count: 4
         children:
           0:
             child_count: 0
@@ -1394,7 +1709,7 @@ children:
               y: 0.125
               z: -0.375
             path: '530'
-            points_count: 2484
+            points_count: 2459
           2:
             child_count: 0
             depth: 3
@@ -1409,7 +1724,37 @@ children:
               y: 0.0
               z: -0.375
             path: '532'
-            points_count: 2618
+            points_count: 2581
+          4:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 4
+            leaf: true
+            origin:
+              x: -0.25
+              y: 0.125
+              z: -0.375
+            path: '534'
+            points_count: 498
+          6:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 6
+            leaf: true
+            origin:
+              x: -0.25
+              y: 0.0
+              z: -0.375
+            path: '536'
+            points_count: 254
         depth: 2
         extents:
           x: 0.25
@@ -1422,9 +1767,9 @@ children:
           y: 0.0
           z: -0.5
         path: '53'
-        points_count: 5829
+        points_count: 5792
       6:
-        child_count: 6
+        child_count: 7
         children:
           0:
             child_count: 0
@@ -1440,7 +1785,7 @@ children:
               y: 0.125
               z: -0.125
             path: '560'
-            points_count: 3643
+            points_count: 3683
           1:
             child_count: 0
             depth: 3
@@ -1455,7 +1800,7 @@ children:
               y: 0.125
               z: -0.25
             path: '561'
-            points_count: 1844
+            points_count: 1875
           2:
             child_count: 0
             depth: 3
@@ -1470,7 +1815,7 @@ children:
               y: 0.0
               z: -0.125
             path: '562'
-            points_count: 3869
+            points_count: 3885
           3:
             child_count: 0
             depth: 3
@@ -1485,7 +1830,22 @@ children:
               y: 0.0
               z: -0.25
             path: '563'
-            points_count: 3902
+            points_count: 3817
+          4:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 4
+            leaf: true
+            origin:
+              x: -0.5
+              y: 0.125
+              z: -0.125
+            path: '564'
+            points_count: 178
           5:
             child_count: 0
             depth: 3
@@ -1500,7 +1860,7 @@ children:
               y: 0.125
               z: -0.25
             path: '565'
-            points_count: 2694
+            points_count: 2649
           7:
             child_count: 0
             depth: 3
@@ -1515,7 +1875,7 @@ children:
               y: 0.0
               z: -0.25
             path: '567'
-            points_count: 6149
+            points_count: 6223
         depth: 2
         extents:
           x: 0.25
@@ -1528,7 +1888,7 @@ children:
           y: 0.0
           z: -0.25
         path: '56'
-        points_count: 22270
+        points_count: 22310
     depth: 1
     extents:
       x: 0.5
@@ -1541,12 +1901,12 @@ children:
       y: 0.0
       z: -0.5
     path: '5'
-    points_count: 44800
+    points_count: 44825
   6:
-    child_count: 3
+    child_count: 4
     children:
       0:
-        child_count: 2
+        child_count: 3
         children:
           1:
             child_count: 0
@@ -1562,7 +1922,7 @@ children:
               y: -0.125
               z: 0.25
             path: '601'
-            points_count: 2726
+            points_count: 2744
           3:
             child_count: 0
             depth: 3
@@ -1577,7 +1937,22 @@ children:
               y: -0.25
               z: 0.25
             path: '603'
-            points_count: 1818
+            points_count: 1755
+          5:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 5
+            leaf: true
+            origin:
+              x: -0.25
+              y: -0.125
+              z: 0.25
+            path: '605'
+            points_count: 68
         depth: 2
         extents:
           x: 0.25
@@ -1590,9 +1965,9 @@ children:
           y: -0.25
           z: 0.25
         path: '60'
-        points_count: 4613
+        points_count: 4567
       1:
-        child_count: 6
+        child_count: 7
         children:
           0:
             child_count: 0
@@ -1623,7 +1998,7 @@ children:
               y: -0.125
               z: 0.0
             path: '611'
-            points_count: 1060
+            points_count: 1141
           2:
             child_count: 0
             depth: 3
@@ -1638,7 +2013,7 @@ children:
               y: -0.25
               z: 0.125
             path: '612'
-            points_count: 3389
+            points_count: 3445
           3:
             child_count: 0
             depth: 3
@@ -1653,7 +2028,7 @@ children:
               y: -0.25
               z: 0.0
             path: '613'
-            points_count: 2461
+            points_count: 2447
           4:
             child_count: 0
             depth: 3
@@ -1668,7 +2043,7 @@ children:
               y: -0.125
               z: 0.125
             path: '614'
-            points_count: 2520
+            points_count: 2471
           5:
             child_count: 0
             depth: 3
@@ -1683,7 +2058,22 @@ children:
               y: -0.125
               z: 0.0
             path: '615'
-            points_count: 2852
+            points_count: 2844
+          6:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 6
+            leaf: true
+            origin:
+              x: -0.25
+              y: -0.25
+              z: 0.125
+            path: '616'
+            points_count: 28
         depth: 2
         extents:
           x: 0.25
@@ -1696,9 +2086,24 @@ children:
           y: -0.25
           z: 0.0
         path: '61'
-        points_count: 14640
+        points_count: 14717
+      2:
+        child_count: 0
+        depth: 2
+        extents:
+          x: 0.25
+          y: 0.25
+          z: 0.25
+        index: 2
+        leaf: true
+        origin:
+          x: -0.25
+          y: -0.5
+          z: 0.25
+        path: '62'
+        points_count: 920
       3:
-        child_count: 1
+        child_count: 3
         children:
           0:
             child_count: 0
@@ -1714,7 +2119,37 @@ children:
               y: -0.375
               z: 0.125
             path: '630'
-            points_count: 5282
+            points_count: 5287
+          1:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 1
+            leaf: true
+            origin:
+              x: -0.125
+              y: -0.375
+              z: 0.0
+            path: '631'
+            points_count: 50
+          4:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 4
+            leaf: true
+            origin:
+              x: -0.25
+              y: -0.375
+              z: 0.125
+            path: '634'
+            points_count: 439
         depth: 2
         extents:
           x: 0.25
@@ -1727,7 +2162,7 @@ children:
           y: -0.5
           z: 0.0
         path: '63'
-        points_count: 5752
+        points_count: 5776
     depth: 1
     extents:
       x: 0.5
@@ -1740,12 +2175,12 @@ children:
       y: -0.5
       z: 0.0
     path: '6'
-    points_count: 26353
+    points_count: 26389
   7:
     child_count: 2
     children:
       0:
-        child_count: 5
+        child_count: 6
         children:
           0:
             child_count: 0
@@ -1761,7 +2196,7 @@ children:
               y: -0.125
               z: -0.125
             path: '700'
-            points_count: 1017
+            points_count: 1100
           1:
             child_count: 0
             depth: 3
@@ -1776,7 +2211,7 @@ children:
               y: -0.125
               z: -0.25
             path: '701'
-            points_count: 3245
+            points_count: 3190
           2:
             child_count: 0
             depth: 3
@@ -1791,7 +2226,22 @@ children:
               y: -0.25
               z: -0.125
             path: '702'
-            points_count: 1704
+            points_count: 1682
+          3:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 3
+            leaf: true
+            origin:
+              x: -0.125
+              y: -0.25
+              z: -0.25
+            path: '703'
+            points_count: 113
           4:
             child_count: 0
             depth: 3
@@ -1806,7 +2256,7 @@ children:
               y: -0.125
               z: -0.125
             path: '704'
-            points_count: 3108
+            points_count: 3086
           5:
             child_count: 0
             depth: 3
@@ -1821,7 +2271,7 @@ children:
               y: -0.125
               z: -0.25
             path: '705'
-            points_count: 1760
+            points_count: 1786
         depth: 2
         extents:
           x: 0.25
@@ -1834,9 +2284,9 @@ children:
           y: -0.25
           z: -0.25
         path: '70'
-        points_count: 10959
+        points_count: 10957
       4:
-        child_count: 2
+        child_count: 4
         children:
           0:
             child_count: 0
@@ -1852,7 +2302,7 @@ children:
               y: -0.125
               z: -0.125
             path: '740'
-            points_count: 2898
+            points_count: 2809
           1:
             child_count: 0
             depth: 3
@@ -1867,7 +2317,37 @@ children:
               y: -0.125
               z: -0.25
             path: '741'
-            points_count: 1169
+            points_count: 1214
+          4:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 4
+            leaf: true
+            origin:
+              x: -0.5
+              y: -0.125
+              z: -0.125
+            path: '744'
+            points_count: 153
+          5:
+            child_count: 0
+            depth: 3
+            extents:
+              x: 0.125
+              y: 0.125
+              z: 0.125
+            index: 5
+            leaf: true
+            origin:
+              x: -0.5
+              y: -0.125
+              z: -0.25
+            path: '745'
+            points_count: 892
         depth: 2
         extents:
           x: 0.25
@@ -1880,7 +2360,7 @@ children:
           y: -0.25
           z: -0.25
         path: '74'
-        points_count: 5138
+        points_count: 5068
     depth: 1
     extents:
       x: 0.5
@@ -1893,7 +2373,7 @@ children:
       y: -0.5
       z: -0.5
     path: '7'
-    points_count: 16599
+    points_count: 16542
 depth: 0
 extents:
   x: 1.0

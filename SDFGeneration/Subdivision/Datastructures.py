@@ -20,6 +20,9 @@ class OctreeNode:
 
     def is_inside(self, points: np.array):
         return np.all(self.origin <= points) & np.all(points <= self.origin + self.extents)
+    
+    def occupancy(self, points: np.array):
+        return np.all(self.origin <= points, axis=-1) & np.all(points <= self.origin + self.extents, axis=-1)
 
     def get_child_index(self, points: np.array):
         index = np.zeros(points.shape[0]).astype('int8')
@@ -119,7 +122,7 @@ class Octree:
             result += self.get_all_leaf_nodes(child_node)
         return result
 
-    def visualize(self, show_boxes=True, show_coordinate_frames=False, show_points=False, additional_geometries: list = []):
+    def visualize(self, show_boxes=True, show_coordinate_frames=False, show_points=False, points_as_spheres=False, additional_geometries: list = []):
         leaf_nodes = self.get_all_leaf_nodes()
         geometries = []
         for node in leaf_nodes:
@@ -131,7 +134,18 @@ class Octree:
                 box.paint_uniform_color(np.random.random(3))
                 geometries.append(box)
             if show_points:
-                geometries.append(o3d.geometry.PointCloud(o3d.utility.Vector3dVector(node.points)))
+                max_balls_per_node = self.root_node.points.shape[0] * 0.001 / len(leaf_nodes)
+                if not points_as_spheres or node.points.shape[1] > max_balls_per_node:
+                    geometries.append(o3d.geometry.PointCloud(o3d.utility.Vector3dVector(node.points)))
+                else:
+                    radius = max(0.01, node.extents[0]**3 / node.points.shape[0]) / 2.
+                    balls = []
+                    for i in range(node.points.shape[0]):
+                        ball = o3d.geometry.TriangleMesh.create_sphere(radius=radius)
+                        ball.paint_uniform_color(np.array([0, 0, 0]))
+                        ball.translate(node.points[i])
+                        balls.append(ball)
+                    geometries += balls
             
             if show_coordinate_frames:
                 geometries.append(o3d.geometry.TriangleMesh.create_coordinate_frame(size=node.extents[0], origin=node.origin))

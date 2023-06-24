@@ -7,9 +7,6 @@
 
 This project borrows a lot from janivanecky's [nsdf](https://github.com/janivanecky/nsdf) project, specifically the neural network architecture used to approximate the SDFs.
 
-The major differences between this project and nsdf is that this project is able to the neural networks' weights at runtime instead of having them as hardcoded functions in the glsl shaders.
-
-
 ## Usage (Needs a lot of cleanup)
 
 Generate a neural network model by running the train.py script from nsdf

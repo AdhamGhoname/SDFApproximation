@@ -5,6 +5,8 @@
 ![Render1](/images/suzanne1.png)
 ![Render2](/images/suzanne2.png)
 
+The main idea of this project is approximating the signed distance function of any arbitrary object using a small neural network and then rendering the object using raymarching.
+
 This project borrows a lot from janivanecky's [nsdf](https://github.com/janivanecky/nsdf) project, specifically the neural network architecture used to approximate the SDFs.
 
 ## Usage (Needs a lot of cleanup)

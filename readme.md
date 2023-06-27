@@ -9,7 +9,7 @@ This project borrows a lot from janivanecky's [nsdf](https://github.com/janivane
 
 ## Usage (Needs a lot of cleanup)
 
-Generate a neural network model by running the train.py script from nsdf
+Generate a neural network model by running the train.py script from nsdf.
 
 `python train.py $YOUR_MESH_FILE --output $OUTPUT_MODEL_FILE --model_size {small, normal, bigly}`
 
